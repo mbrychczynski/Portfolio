@@ -1,7 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for, send_from_directory
 
 app = Flask(__name__)
-
 
 @app.route("/")
 def hello_world():
@@ -14,7 +13,3 @@ def about():
 @app.route("/blog")
 def blog():
     return "Blog"
-
-@app.route("/favicon.ico")
-def blog2():
-    return "Blog2"
