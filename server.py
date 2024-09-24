@@ -15,6 +15,6 @@ def about():
 def blog():
     return "Blog"
 
-@app.route("/blog/2020/dogs")
+@app.route("/favicon.ico")
 def blog2():
     return "Blog2"
