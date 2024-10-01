@@ -1,3 +1,0 @@
-email,subject,message
-ema@ema.com,Sub,Messa
-dsf@f.com,ddwe,gerg
